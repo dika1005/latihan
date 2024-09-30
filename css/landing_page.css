@@ -10,7 +10,7 @@ body {
   height: 100vh;
   margin: 0;
  
-  display: flex;
+  display: lex;
   flex-direction: column;
 }
  
