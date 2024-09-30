@@ -88,7 +88,7 @@ main .content .content-description p {
   font-size: 1.2rem;
   line-height: 1.7rem;
 }
-main .content .content-description button {
+body > main > div > div.content-desciption > button {
   padding: 0.8rem 2.5rem;
   border: 3px solid transparent;
   border-radius: 999px;
@@ -116,3 +116,36 @@ main .content .content-image img {
   min-width: 250px;
   margin: auto;
 }
+main aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+}
+body > main > aside > div > ul {
+  padding: 1.5rem 1rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin: auto;
+  background-color: #2d3e50;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+main aside .social-media li{
+  list-style-type: none;
+}
+
+main aside .social-media li a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+transition: all 0.1s ease-in-out;
+}
+main aside .social-media li a:hover {
+  color: #89b0d9;
+}
+
